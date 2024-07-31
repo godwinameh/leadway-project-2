@@ -10,18 +10,43 @@
 
 <body>
     <nav class="navbar">
-        <div class="logo">
-           <img src="image/kudalogo.svg" alt="logo"> 
-        </div>
+        <div class="left_navbar">
+            <div class="logo">
+                <img src="image/kudalogo.svg" alt="logo"> 
+             </div>
         <ul class="left_nav">
-            <li><a href="#">Personal</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="#">Personal <img src="image/dropdown.svg" alt=""></a></li>
+            <li><a href="#">Business <img src="image/dropdown.svg" alt=""></a></li>
+            <div class="relative dropdown">
+                <li><a href="#" class="dropdown-btn px-4">Company <img src="image/dropdown.svg" alt="">
+                    </a></li>
+                    <div class="dropdown-content">
+                        <a href="#">Blog</a>
+                        <a href="#">Press</a>
+                        <a href="#">Join Our Team</a>
+                        <a href="#">About Us</a>
+                    </div>
+            </div>
+            
+            <div class="relative dropdown">
+                <li><a href="#" class="dropdown-btn px-4">Help <img src="image/dropdown.svg" alt=""></a></li>
+                    <div class="dropdown-content">
+                        <a href="#">Get Help </a>
+                        <a href="#">Scam Awareness</a>
+                        <a href="#">FAQs</a>
+                        <a href="#">Security</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Self Help</a>
+                    </div>
+            </div>
         </ul>
+
+        </div>
+
+
         <ul class="right_nav">
             <li><a href="#">Sign In</a></li>
-            <li class="btn"><a href="#" style="color: #fff;">Join kuda</a></li>
+            <li class="btn"><a href="#" style="color: #f1f1f1;">Join kuda</a></li>
             <div class="flag">
                 <img src="image/flag.svg" alt="flag" >
             </div>
@@ -324,113 +349,114 @@
         </section>
 
             <!-- footer section -->
-             <section>
-                <footer class="footer">
-                    <div class="footer-container">
-                        <div class="footer-section">
-                            <img src="image/kudalogo.svg" alt="Kuda Logo" class="footer-logo">
-                        </div>
-                        <div class="footer-section">
-                            <h4>Personal</h4>
-                            <ul>
-                                <li><a href="#">Discover Personal</a></li>
-                                <li><a href="#">Transfer & Spend</a></li>
-                                <li><a href="#">Save</a></li>
-                                <li><a href="#">Investments</a></li>
-                                <li><a href="#">Kuda card</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-section">
-                            <h4>Business</h4>
-                            <ul>
-                                <li><a href="#">Discover Business</a></li>
-                                <li><a href="#">Business Registration</a></li>
-                                <li><a href="#">softPOS</a></li>
-                                <li><a href="#">Invoicing</a></li>
-                                <li><a href="#">Salary Loan</a></li>
-                                <li><a href="#">Business API</a></li>
-                                <li><a href="#">Join Kuda Business</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-section">
-                            <h4>Company</h4>
-                            <ul>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Press</a></li>
-                                <li><a href="#">Join Our Team</a></li>
-                                <li><a href="#">About Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-section">
-                            <h4>Help</h4>
-                            <ul>
-                                <li><a href="#">Get Help</a></li>
-                                <li><a href="#">Scam Awareness</a></li>
-                                <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Security</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Self Help</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-section">
-                            <h4>Transparency</h4>
-                            <ul>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Information Security Policy</a></li>
-                                <li><a href="#">Cookie Policy</a></li>
-                                <li><a href="#">Whistleblowing Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-bottom">
-                        <div class="footer-apps">
-                            <a href="#"><img src="image/apple.svg" alt="Download on the App Store"></a>
-                            <a href="#"><img src="image/playstore.svg" alt="Get it on Google Play"></a>
-                            <a href="#"><img src="image/theweb.svg" alt="Sign in to Kuda on the Web"></a>
-                        </div>
-                    </div>
-                    <p class="neutral">Product may vary by country or market</p>
-                </footer>
-                <div class="secondfooter">
-                    <div class="footer-top">
-                        <div class="footer-sect contact">
-                            <h4>Contact</h4>
-                            <a href="mailto:help@kuda.com">help@kuda.com</a>
-                            <div class="social-icons">
-                                <a href="#"><img src="image/tweeiter.svg" alt="X"></a>
-                                <a href="#"><img src="image/roll.svg" alt="Instagram"></a>
-                                <a href="#"><img src="image/facebook.svg" alt="Facebook"></a>
-                                <a href="#"><img src="image/media.svg" alt="YouTube"></a>
-                                <a href="#"><img src="image/muzi.svg" alt="Medium"></a>
-                                <a href="#"><img src="image/lindin.svg" alt="LinkedIn"></a>
-                            </div>
-                        </div>
-                        <div class="footer-sect location">
-                            <h4>Lagos</h4>
-                            <p>1-11 Commercial Avenue,<br> Yaba, Lagos,<br> Nigeria</p>
-                        </div>
-                        <div class="footer-sect location">
-                            <h4>London</h4>
-                            <p>5 New Street Square,<br> London, EC4A 3TW,<br> United Kingdom</p>
-                        </div>
-                        <div class="footer-sect location">
-                            <h4>Cape Town</h4>
-                            <p>146 Campground<br> Road,<br> Snakepit Building,<br> Level 4, Newlands,<br> Cape Town</p>
-                        </div>
-                        <div class="footer-sect location">
-                            <h4>Canada</h4>
-                            <p>3080 Yonge Street,<br> Suite 6060, Toronto,<br> Ontario M4N 3N1</p>
-                        </div>
-                    </div>
-                    <div class="footer-bott">
-                        <p>© 2024 Kuda Technologies Ltd (Company No.11472232). All rights reserved.</p>
-                        <p>If you would like to find out more about which Kuda entity you receive services from, please reach out to us via the in-app chat in the Kuda app. Nigerian banking services are offered by Kuda Microfinance Bank (RC796975) with<br/> registered address at 1-11 Commercial Avenue, Yaba, Lagos, Nigeria. Kuda Microfinance Bank is licensed by the Central Bank of Nigeria. Deposits are insured by the Nigerian<br> Deposit Insurance Corporation (NDIC).</p>
-                        <p>UK services are offered by Kuda EMI Ltd (Company No. 13724208) with registered address at 5 New Street Square, London, EC4A 3TW, United Kingdom.</p>
-                        <p>Canada services will be provided by Kuda Canada Technologies Limited, an Ontario corporation registered under number 1000286176, with its registered address located at 3080 Yonge Street, Suite 6060, Toronto, Ontario M4N 3N1. Kuda Canada Technologies Limited is duly registered with The Financial Transactions and Reports Analysis Centre of Canada (FINTRAC) as a money service business, bearing registration number M23163015.</p>
-                    </div>
-                </footer>
-             </section>
+            <section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="images/KudaLo.jpg" alt="Kuda Logo" class="footer-logo">
+            </div>
+            <div class="footer-section">
+                <h4>Personal</h4>
+                <ul>
+                    <li><a href="#">Discover Personal</a></li>
+                    <li><a href="#">Transfer & Spend</a></li>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Investments</a></li>
+                    <li><a href="#">Kuda card</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Business</h4>
+                <ul>
+                    <li><a href="#">Discover Business</a></li>
+                    <li><a href="#">Business Registration</a></li>
+                    <li><a href="#">softPOS</a></li>
+                    <li><a href="#">Invoicing</a></li>
+                    <li><a href="#">Salary Loan</a></li>
+                    <li><a href="#">Business API</a></li>
+                    <li><a href="#">Join Kuda Business</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Join Our Team</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Get Help</a></li>
+                    <li><a href="#">Scam Awareness</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Self Help</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Transparency</h4>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Information Security Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Whistleblowing Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-apps">
+                <a href="#"><img src="image/apple.svg" alt="Download on the App Store"></a>
+                <a href="#"><img src="image/playstore.svg" alt="Get it on Google Play"></a>
+                <a href="#"><img src="image/theweb.svg" alt="Sign in to Kuda on the Web"></a>
+            </div>
+        </div>
+        <p class="neutral">Product may vary by country or market</p>
+    </footer>
+    <div class="secondfooter">
+        <div class="footer-top">
+            <div class="footer-sect contact">
+                <h4>Contact</h4>
+                <a href="mailto:help@kuda.com">help@kuda.com</a>
+                <div class="social-icons">
+                    <a href="#"><img src="image/tweeiter.svg" alt="X"></a>
+                    <a href="#"><img src="image/roll.svg" alt="Instagram"></a>
+                    <a href="#"><img src="image/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="image/media.svg" alt="YouTube"></a>
+                    <a href="#"><img src="image/muzi.svg" alt="Medium"></a>
+                    <a href="#"><img src="image/lindin.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="footer-sect location">
+                <h4>Lagos</h4>
+                <p>1-11 Commercial Avenue,<br> Yaba, Lagos,<br> Nigeria</p>
+            </div>
+            <div class="footer-sect location">
+                <h4>London</h4>
+                <p>5 New Street Square,<br> London, EC4A 3TW,<br> United Kingdom</p>
+            </div>
+            <div class="footer-sect location">
+                <h4>Cape Town</h4>
+                <p>146 Campground<br> Road,<br> Snakepit Building,<br> Level 4, Newlands,<br> Cape Town</p>
+            </div>
+            <div class="footer-sect location">
+                <h4>Canada</h4>
+                <p>3080 Yonge Street,<br> Suite 6060, Toronto,<br> Ontario M4N 3N1</p>
+            </div>
+        </div>
+        <div class="footer-bott">
+            <p>© 2024 Kuda Technologies Ltd (Company No.11472232). All rights reserved.</p>
+            <p>If you would like to find out more about which Kuda entity you receive services from, please reach out to us via the in-app chat in the Kuda app. Nigerian banking services are offered by Kuda Microfinance Bank (RC796975) with<br/> registered address at 1-11 Commercial Avenue, Yaba, Lagos, Nigeria. Kuda Microfinance Bank is licensed by the Central Bank of Nigeria. Deposits are insured by the Nigerian<br> Deposit Insurance Corporation (NDIC).</p>
+            <p>UK services are offered by Kuda EMI Ltd (Company No. 13724208) with registered address at 5 New Street Square, London, EC4A 3TW, United Kingdom.</p>
+            <p>Canada services will be provided by Kuda Canada Technologies Limited, an Ontario corporation registered under number 1000286176, with its registered address located at 3080 Yonge Street, Suite 6060, Toronto, Ontario M4N 3N1. Kuda Canada Technologies Limited is duly registered with The Financial Transactions and Reports Analysis Centre of Canada (FINTRAC) as a money service business, bearing registration number M23163015.</p>
+        </div>
+    </footer>
+    </section>
         </div>
         <div class="cookie-banner">
             By using this website you agree to our <a href="cookie-policy.html">cookie policy</a>. <button>Dismiss</button>
