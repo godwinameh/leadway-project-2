@@ -489,16 +489,22 @@ body, html {
     font-size: 14px;
 }
 
-.footer-sect .social-icons {
+ .social-icons a {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
     margin-top: 10px;
-    margin-left: 2px;
 }
-
-.footer-sect .social-icons  img {
-    /* width: 80px; */
-    /* height: 60px; */
-    margin-left: -90px;
+.footer .social-icons a {
+    margin: 0 5px;
+}
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
 }
 
 .footer-bott {
