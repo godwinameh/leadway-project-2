@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuda Footer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .footer {
+            background-color: #fff;
+            padding: 40px 20px;
+        }
+        .footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .footer .footer-logo img {
+            height: 40px;
+        }
+        .footer .footer-column {
+            flex: 1;
+            min-width: 150px;
+            margin: 20px 0;
+        }
+        .footer .footer-column h3 {
+            color: #4b0082;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        .footer .footer-column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        .footer .footer-column ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .footer .footer-column ul li a:hover {
+            text-decoration: underline;
+        }
+        .footer .footer-bottom {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer .footer-bottom img {
+            height: 40px;
+            margin: 10px;
+        }
+        @media (max-width: 768px) {
+            .footer .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer .footer-column {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="kuda_logo.png" alt="Kuda Logo">
+        </div>
+        <div class="footer-column">
+            <h3>Personal</h3>
+            <ul>
+                <li><a href="#">Discover Personal</a></li>
+                <li><a href="#">Transfer & Spend</a></li>
+                <li><a href="#">Save</a></li>
+                <li><a href="#">Investments</a></li>
+                <li><a href="#">Kuda card</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Business</h3>
+            <ul>
+                <li><a href="#">Discover Business</a></li>
+                <li><a href="#">Business Registration</a></li>
+                <li><a href="#">softPOS</a></li>
+                <li><a href="#">Invoicing</a></li>
+                <li><a href="#">Salary Loan</a></li>
+                <li><a href="#">Business API</a></li>
+                <li><a href="#">Join Kuda Business</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Join Our Team</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Help</h3>
+            <ul>
+                <li><a href="#">Get Help</a></li>
+                <li><a href="#">Scam Awareness</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Self Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Transparency</h3>
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Information Security Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Whistleblowing Policy</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <a href="#"><img src="appstore.png" alt="App Store"></a>
+        <a href="#"><img src="playstore.png" alt="Google Play"></a>
+        <a href="#"><img src="web.png" alt="Kuda on the Web"></a>
+    </div>
+</div>
+
+</body>
+</html>
