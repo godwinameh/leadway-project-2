@@ -6,6 +6,69 @@
     <title>Kuda project</title>
     <link rel="stylesheet" href="https:https://youtu.be/tRZGeaHPoaw?si=bu2diSrICpaqp9ko//cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <style>
+    /* General styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1f1;
+    /* color: white; */
+}
+
+.navbar .logo img {
+    height: 40px;
+}
+
+.navbar .hambuger {
+    display: none;
+}
+
+.nav-list, .right_nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li, .right_nav li {
+    margin: 0 10px;
+}
+
+.nav-list li a, .right_nav li a {
+    /* color: white; */
+    text-decoration: none;
+}
+
+/* Hamburger menu styles */
+@media (max-width: 768px) {
+    .hambuger {
+        display: block;
+    }
+
+    .nav-list, .right_nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px;
+    }
+
+    .nav-list li, .right_nav li {
+        margin: 10px 0;
+    }
+
+    .nav-list.show, .right_nav.show {
+        display: flex;
+    }
+}
+
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -13,7 +76,11 @@
             <div class="logo">
                 <img src="image/kudalogo.svg" alt="logo"> 
              </div>
-        <ul class="left_nav">
+            <div class="hambuger">
+                <button id="menu-btn" class="menu-btn">&#9776;</button>  
+            </div>
+
+        <ul class="left_nav nav-list">
             <li><a href="#">Personal <img src="image/dropdown.svg" alt=""></a></li>
             <li><a href="#">Business <img src="image/dropdown.svg" alt=""></a></li>
             <div class="relative dropdown">
@@ -452,5 +519,6 @@
         <div class="cookie-banner">
             By using this website you agree to our <a href="cookie-policy.html">cookie policy</a>. <button>Dismiss</button>
         </div>
+        <script src="js/main.js"></script>
 </body>
 </html>
